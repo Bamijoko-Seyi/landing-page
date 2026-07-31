@@ -46,13 +46,34 @@ padding: 16px 100px 128px 100px;
 
 .CTA-container{
     background-color: #F9FAF8;
+    color: #F9FAF8;
+    
+}
+
+.CTA-sub-container{
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-container{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 
 #quote-text{
     font-size: 36px;
     color: #1F2937;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .header-container .header-logo {
@@ -106,4 +127,31 @@ padding: 16px 100px 128px 100px;
     flex: 2 1 auto;
     margin-left: 100px;
 }
+
+#CTA-button{
+    margin-left: 100px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+}
+
+#CTA-header{
+    margin-bottom: 5px;
+}
+
+#CTA-body{
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+#footer-text{
+    margin: 32px auto;
+}
+
+
 
